@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (NO subir: tiene claves y contraseñas)
+.env
+
+# Imágenes subidas por usuarios en tiempo de ejecución
+frontend/uploads/
+
+# (notas privadas, credenciales) — solo local
+Configuracion.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
